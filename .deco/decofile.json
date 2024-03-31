@@ -1,0 +1,266 @@
+{
+  "Faq - default": {
+    "title": "FAQs",
+    "__resolveType": "site/sections/Faq.tsx"
+  },
+  "Groovy Vibes": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#FDE5BE",
+      "primary": "#FF6502",
+      "secondary": "#FEC902",
+      "tertiary": "#FF91B2",
+      "neutral": "#9934A6",
+      "info": "#2e72d2",
+      "error": "#d82c0d",
+      "warning": "#ffc453",
+      "success": "#008060"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Lobster"
+        }
+      ]
+    }
+  },
+  "Preview Sections MyHero": {
+    "name": "works!",
+    "__resolveType": "site/sections/myHero.tsx"
+  },
+  "decohub": {
+    "__resolveType": "site/apps/decohub.ts"
+  },
+  "hero": {
+    "__resolveType": "site/sections/Hero.tsx"
+  },
+  "pages-testing-a5c1b57018a9": {
+    "name": "Home",
+    "path": "/",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Header.tsx"
+      },
+      {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Landing",
+        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/43999173-3786-4a4b-be09-5d7313d0bc3b"
+      },
+      {
+        "__resolveType": "site/sections/Hero.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Logos.tsx"
+      },
+      {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "placement": "right"
+      },
+      {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      },
+      {
+        "__resolveType": "site/sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Testimonials.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Faq.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "site": {
+    "seo": {
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
+      "title": "Landing",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1a2a71f9-a821-44ca-bf67-6558336dbefc",
+      "jsonLDs": [],
+      "canonical": "https://fashion.deco.site",
+      "noIndexing": false,
+      "description": "Improve your page performance with deco.cx",
+      "titleTemplate": "Landing | deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    "global": [],
+    "routes": [
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      },
+      {
+        "__resolveType": "website/loaders/redirects.ts"
+      }
+    ],
+    "caching": {
+      "directives": []
+    },
+    "__resolveType": "site/apps/site.ts",
+    "firstByteThresholdMS": false,
+    "theme": {
+      "__resolveType": "Neutral"
+    }
+  },
+  "Serene Coastline": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.8rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#cceae3",
+      "primary": "#00767F",
+      "secondary": "#9BD8E7",
+      "tertiary": "#004247",
+      "neutral": "#E2E2E2",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Shadows Into Light"
+        }
+      ]
+    }
+  },
+  "Sunset Glow": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#FFF7D2",
+      "primary": "#A73C5A",
+      "secondary": "#FFBC55",
+      "tertiary": "#FF9900",
+      "neutral": "#4F3000",
+      "success": "#008060",
+      "warning": "#FFC453",
+      "error": "#D82C0D",
+      "info": "#2E72D2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Special Elite"
+        }
+      ]
+    }
+  },
+  "Urban Chic": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#F8F9FD",
+      "primary": "#3141AC",
+      "secondary": "#BADFED",
+      "tertiary": "#DECD8F",
+      "neutral": "#FBF5F1",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Poiret One"
+        }
+      ]
+    }
+  },
+  "Neutral": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": 0.95,
+      "--animation-btn": "0.25s"
+    },
+    "colorScheme": "any",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#ffffff",
+      "primary": "#171717",
+      "secondary": "#c7c7c7",
+      "tertiary": "#404040",
+      "neutral": "#333333",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    }
+  },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx"
+  }
+}
